@@ -10,7 +10,7 @@
 
     <Button
         android:id="@+id/btDisagree"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gdpr_dialog_disagree_no_thanks"/>

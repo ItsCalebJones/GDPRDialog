@@ -263,8 +263,8 @@ public class GDPRViewManager {
                 String textInfo = activity.getString(R.string.gdpr_dialog_disagree_info);
                 SpannableString spannableText = new SpannableString(textButton + textInfo);
                 spannableText.setSpan(new StyleSpan(Typeface.BOLD), 0, textButton.length(), 0);
-                spannableText.setSpan(new RelativeSizeSpan(0.8f), textButton.length(), spannableText.length(), 0);
-                spannableText.setSpan(new ForegroundColorSpan(tvText1.getTextColors().getDefaultColor()), textButton.length(), spannableText.length(), 0);
+                spannableText.setSpan(new RelativeSizeSpan(0.90f), textButton.length(), spannableText.length(), 0);
+                spannableText.setSpan(new ForegroundColorSpan(tvText1.getTextColors().getDefaultColor()), 0, spannableText.length(), 0);
                 btDisagree.setAllCaps(false);
                 btDisagree.setTypeface(Typeface.DEFAULT);
                 btDisagree.setText(spannableText);
@@ -374,7 +374,7 @@ public class GDPRViewManager {
 //        } else
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             // not perfect, but better than nothing
-            textView.setBreakStrategy(Layout.BREAK_STRATEGY_BALANCED);
+            textView.setBreakStrategy(Layout.BREAK_STRATEGY_SIMPLE);
             // wrap content is not working with this strategy, so we wait for the layout
             // and find the longest line and use it's width for the textview and then center the layout
             textView.post(() -> {

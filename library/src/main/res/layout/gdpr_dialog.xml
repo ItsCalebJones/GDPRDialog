@@ -61,12 +61,22 @@
                         style="@style/TextAppearance.AppCompat.Small"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/gdpr_big_padding"
-                        android:layout_marginTop="@dimen/gdpr_big_padding"
+                        android:layout_marginTop="@dimen/gdpr_small_padding"
                         android:text="@string/gdpr_dialog_question"
                         android:textAlignment="center"
                         android:textSize="@dimen/gdpr_text_size_big"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvContinue"
+                        style="@style/TextAppearance.AppCompat.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/gdpr_small_padding"
+                        android:layout_marginTop="4dp"
+                        android:text="You may continue to use this application no matter your choice."
+                        android:textAlignment="center"
+                        android:textSize="@dimen/gdpr_text_size_normal" />
 
                     <TextView
                         android:id="@+id/tvText3"
