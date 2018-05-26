@@ -13,7 +13,7 @@
     <string name="gdpr_dialog_text3">By agreeing, you are confirming that you are over the age of 16.</string>
     <!-- %1$s is replaced with 'gdpr_dialog_question_ads_info' string if the setup contains an ad network, otherwise with an empty string -->
     <string name="gdpr_dialog_question">Can we continue to use your data for these purposes%1$s?</string>
-    <string name="gdpr_dialog_question_ads_info">\u0020as including showing personalized ads</string>
+    <string name="gdpr_dialog_question_ads_info">\u0020, including showing personalized ads</string>
 
     <!-- *********************** -->
     <!-- Dialog - SUB PAGE TEXTS -->
